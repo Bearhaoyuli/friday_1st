@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D3BCCC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    padding: 10px 35px 20px 35px;
+
+}
+
+header h1{
+    font-weight: bolder;
+    font-size: 35px;
+    color: coral;
+    margin: 0;
+    display: inline;
+}
+
+header h1 a{
+    font-weight: bolder;
+    font-size: 35px;
+    color: coral;
+}
+
+nav ul{
+    display: inline;
+ }
+header nav ul li{
+    display: inline;
+    color: coral;
+    padding: 0px 12px;
+}
+
+header nav ul{
+    float: right;
+    margin: 7px 80px;
+}
+header nav ul li a {
+    margin: 0,25px;
+}
+
+.hero{
+    background-image: url('https://media.istockphoto.com/id/458404689/photo/nike-air-jordan-iv.jpg?s=2048x2048&w=is&k=20&c=1p0fe9yBD2sbeTrq_6R5jNY8WbS001YB6320oFVBgnI=');
+    height: 700px;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-form{
+    background-color: aqua;
+    border: 3px solid cornflowerblue;
+    padding: 20px;
+    width: 600px;
+    position:absolute;
+    left: 80px;
+}
+
+.hero h3 {
+    font-size: 24px;
+}
+
+.hero > p {
+    background-color: antiquewhite;
+    margin: 5px 0, 15px 0;
+    font-size: medium;
+    padding: 10px 0;
+}
+
+.form-text-input{
+    display: block;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.hero-form label{
+    margin:  5px 5px;
+}
+
+#formButton{
+    background-color: red;
+    padding: 10px 25px;
+    font-size: large;
+    color: yellow;
+}
+
+#about-us{
+    text-align: center;
+    background-color: cadetblue;
+}
+
+#about-us p{
+    color: orange;
+    line-height: 1.7;
+    width: 100%;
+    font-size: 20px;
+    margin: 0px auto;
+}
